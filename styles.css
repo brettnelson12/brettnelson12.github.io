@@ -1,0 +1,19 @@
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color:saddlebrown;
+    text-decoration:wavy;
+    text-shadow: 2px 2px 2px blue;
+}
+img.non-family {
+    border-style:groove;
+    border-width: 10px;
+    border-color: chartreuse;
+}
+img.family {
+    border-style:groove;
+    border-width: 10px;
+    border-color:darkorange
+}
