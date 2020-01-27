@@ -1,3 +1,98 @@
-body {
-    background-color: rgb(240, 208, 161);
-}
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(simpsons_characters_cast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+      }
+  .category {
+    font-family:"Concert One";
+    color: yellowgreen;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  h1 {
+    font-family:"Fredoka One";
+    color:blue;
+    text-shadow: 1px 1px 1px white;
+    }
+  .middle {
+    font-family:"Concert One";
+    color:yellowgreen;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  .right {
+    font-family:"Concert One";
+    color:yellowgreen;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  .foot {
+    background-color: lightgrey;
+  }
+  .img-fluid {
+    width: 160px;
+    height: auto;
+  }
+  .foot {
+    background-size: cover;
+    background-color: lightgrey;
+  }
+  h2 {
+    color: #fed90f;
+    text-shadow: 1px 1px 1px black;
+  }
+  .btn.btn-warning.btn-lg {
+    background-color: greenyellow;
+    font-family:"Baloo Bhai";
+    border-color: teal;
+  }
+  .navbar {
+    background-color:lightgrey;
+  }
+  .d-inline-block.align-middle {
+    width: 160px;
+    height: auto;
+  }
+  table.table-active.table-dark.table-hover {
+    color: black;
+  }
+  .familyguy {
+    width: 200px;
+    height: auto;
+  }
+  .simpsonsfamily {
+    width: auto;
+    height: 200px;
+  }
+  .fas.fa-thumbs-up {
+    font-size:25px;
+    text-shadow: 1px 1px 1px lime;
+  }
+  .win {
+    color:white;
+  }
+  .fas.fa-medal {
+    color:gold;
+    font-size: 25px;
+  }
+  h5 {
+    font-family:"Russo One";
+    font-size: 100px;
+  }
+  .char {
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:50%;
+    text-align: center;
+  }
+  ul {
+    font-family:"Russo One";
+    font-size: 20px;
+  }

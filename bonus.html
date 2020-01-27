@@ -1,34 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Super Secret Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top 10 Simpsons Characters</title>
     <link rel="stylesheet" href="styles2.css">
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bowlby+One+SC|Concert+One|Fredoka+One|Patrick+Hand|Russo+One&display=swap" rel="stylesheet">
+  </head>
 <body>
-    <h3>WELCOME! <em>WELCOME!</em> WELCOME!</h3>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="simpsons logo.png" class="d-inline-block align-middle">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+        <!-- This causes the links to move to the right -->
+        <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="bonus.html">Top 10</a>
+          <a class="nav-item nav-link" href="about.html">Head to Head</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+          <img src="Lisa.gif" class="d-inline-block align-middle">
+        </div>
+      </div>
+    </div>
+  </nav>
     <hr>
-    <p><h1>Welcome to my Simpsons Fanpage</h1></p>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Welcome to my Simpsons Fanpage</h1>
+          <p><em>After watching all 673 episodes of the Simpsons, I have ranked the top 10 characters of all time.</em></p>
+        </div>
+      </div>
+    </div>
+
     <hr>
-    <ul>
-        <li>Ralph</li>
-    <img class="non-family" src="Ralph.gif">
-        <li>Homer</li>
-        <img class="family" src="Homer.gif">
-        <li>Bart</li>
-        <img class="family" src="Bart.gif">
-        <li>Mr. Burns</li>
-        <img class="non-family" src="Burns.gif">
-    </ul>
+    <div class="container">
+      <div class="row">
+        <div class="col sm-6">
+          <ul>#1 - Ralph</ul>
+          <img class="char" src="ralph.png">
+          <ul>#2 - Homer</ul>
+          <img class="char" src="Homer.gif">
+          <ul>#3 - Bart</ul>
+          <img class="char" src="Bart.gif">
+          <ul>#4 - Mr. Burns</ul>
+          <img class="char" src="Burns.gif">
+          <ul>#5 - Lisa Simpson</ul>
+          <img class="char" src="LisaSimp.png">
+          </ul>
+        </div>
+        <div class="col sm-6">
+          <ul>#6 - Milhouse</ul>
+          <img class="char" src="milhouse.png">
+          <ul>#7 - Maggie Simpson</ul>
+          <img class="char" src="maggie2.gif">
+          <ul>#8 - Krusty the Clown</ul>
+          <img class="char" src="krusty.gif">
+          <ul>#9 - Nelson</ul>
+          <img class="char" src="nelson.gif">
+          <ul>#10 - Santa's Little Helper</ul>
+          <img class="char" src="santa.jpg">
+          </ul>
+        </div>
+      </div>
+    </div>
     <hr>
-    <p>
-        <a href="index.html">Home</a>
-    </p>
 
-
-</body>
-
-
-
-
-</html>
+   
+    <div class="foot mt-4 pt-4">
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="simpsons logo.png" class="img-fluid">
+        </div>
+        <div class="col-sm-3">
+          <h6>Website Directory</h6>
+          <ul class="list-unstyled mt-3">
+            <li><a href="about.html">Top 10</a></li>
+            <li><a href="bonus.html">Head to Head</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h6><i class="far fa-copyright"></i></h6>
+          <p class="mt-3"><strong><em>Informing fans since 2020</em></strong></p>
+        </div>
+  </body>
+  </html>

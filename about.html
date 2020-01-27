@@ -1,5 +1,126 @@
-<h1>About Me</h1>
-<p>
-    <a href="index.html">Home
-    </a>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Head to Head</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bowlby+One+SC|Concert+One|Fredoka+One|Patrick+Hand|Russo+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="simpsons logo.png" class="d-inline-block align-middle">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+          <!-- This causes the links to move to the right -->
+          <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="bonus.html">Top 10</a>
+            <a class="nav-item nav-link" href="about.html">Head to Head</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <img src="maggie.gif" class="d-inline-block align-middle">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="pricing py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h5>Simpsons vs. Family Guy - Who reigns supreme?</h5>
+              <table class="table table-active table-dark table-hover">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>
+                        <img src="simpsonsfamily.png" class="simpsonsfamily">
+                    </th>
+                    <th>
+                        <img src="familyguy.png" class="familyguy">
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <tr class="table-primary">
+                        <th>Creativity</th>
+                        <td><i class="fas fa-thumbs-up"></i></td>
+                        <td></td>
+                    </tr>
+                  </tr>
+                  <tr>
+                    <tr class="table-warning">
+                        <th>Humor</th>
+                        <td></td>
+                        <td><i class="fas fa-thumbs-up"></i></td>
+                    </tr>
+                  </tr>
+                  <tr>
+                    <tr class="table-primary">
+                        <th>Relatability</th>
+                        <td><i class="fas fa-thumbs-up"></i></td>
+                        <td></td>
+                    </tr>
+                  </tr>
+                  <tr>
+                    <tr class="table-warning">
+                        <th>Character Development</th>
+                        <td><i class="fas fa-thumbs-up"></i></td>
+                        <td></i></td>
+                    </tr>
+                  </tr>
+                  <tr>
+                    <tr class="table-primary">
+                        <th>Entertainment Factor</th>
+                        <td><i class="fas fa-thumbs-up"></i></td>
+                        <td></td>
+                    </tr>
+                  </tr>
+                  <tr>
+                    <th class="win">
+                        Winner?</th>
+                    <td><i class="fas fa-medal"></i></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot mt-4 pt-4">
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="simpsons logo.png" class="img-fluid">
+          </div>
+          <div class="col-sm-3">
+            <h6>Website Directory</h6>
+            <ul class="list-unstyled mt-3">
+              <li><a href="about.html">Top 10</a></li>
+              <li><a href="bonus.html">Head to Head</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <h6><i class="far fa-copyright"></i></h6>
+            <p class="mt-3"><strong><em>Informing fans since 2020</em></strong></p>
+          </div>
+    </body>
+    </html>
